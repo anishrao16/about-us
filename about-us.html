@@ -2,11 +2,49 @@
     <head>
         <meta charset="utf-8">
         <title> About Us </title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.min.css" />
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/please-wait/0.0.5/please-wait.min.js"></script>
         <link rel="stylesheet" type="text/css" href="style.css">
+
+        <style>
+                body {font-family: Arial, Helvetica, sans-serif;}
+                * {box-sizing: border-box;}
+                
+                input[type=text], select, textarea {
+                  width: 100%;
+                  padding: 12px;
+                  border: 1px solid #ccc;
+                  border-radius: 4px;
+                  box-sizing: border-box;
+                  margin-top: 6px;
+                  margin-bottom: 16px;
+                  resize: vertical;
+                }
+                
+                input[type=submit] {
+                  background-color: #4CAF50;
+                  color: white;
+                  padding: 12px 20px;
+                  border: none;
+                  border-radius: 4px;
+                  cursor: pointer;
+                }
+                
+                input[type=submit]:hover {
+                  background-color: #45a049;
+                }
+                
+                .container {
+                  border-radius: 5px;
+                  background-color: #f2f2f2;
+                  padding: 20px;
+                }
+                </style>
+                
     </head>
     <body>
         
-        <div class="team-section">
+        <div id="configform" class="team-section">
         
             <h1> Our Team </h1>
         
@@ -39,9 +77,39 @@
 
             <span class="borders"></span>
 
-            <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum. </p>
+            <p> It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>
+        
         </div>
+
         </div>
-            
+
+        <div class="contact">        
+            <h3>Contact Form</h3>
+
+        <div class="container">
+          <form >
+                <address>
+                        <strong>Email</strong>
+                        <br>
+                        <a href="mailto:info@arbrand.xyz">info@arbrand.xyz</a>
+                    </address>
+
+                    <address>
+                        <strong> Phone: </strong>
+                        <br>
+                        <a href="tel:+918850637855">+91 (8850637855)</a>
+                    </address>
+
+                <address>
+                        <strong>A.R Clothing Brand</strong>
+                        <br> Swathantra Path, Opp. Big G
+                        <br> Margao, Goa 403802
+
+                    </address>
+        
+          </form>
+        </div>
+    </div>
+        
     </body>
 </html>
