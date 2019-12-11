@@ -7,7 +7,7 @@
     overflow: hidden;
     text-align: center;
     background: #34495e;
-    padding: 6px;
+    padding: 10px;
 }
 .team-section{
     text-transform: uppercase;
@@ -24,35 +24,22 @@
     margin-bottom: 40px;
 }
 .ps{
-    margin-bottom: 40px;
+    margin-bottom: 10px;
+    
 }
 .ps a{
     display: inline-block;
-    margin: 0 30px;
-    width: 160px;
-    height: 160px;
+    margin: 0 60px;
+    width: 360px;
+    height: 360px;
     overflow: hidden;
-    border-radius: 50%;
 }
 .ps a img{
-    width: 200%;
-    filter: grayscale(100%);
+    width: 100%;
     transition: 0.4s all;
 }
 .ps a:hover > img{
     filter: none;
-}
-.section{
-    width: 600px;
-    margin: auto;
-    font-size: 20px;
-    color: white;
-    text-align: justify;
-    height: 0;
-    overflow: hidden;
-}
-.section:target{
-    height: auto;
 }
 .name{
     display: block;
